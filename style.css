@@ -1,0 +1,357 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh; 
+}
+*{
+ margin: 0;
+}
+
+.hero{
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(assets/Fundo.jpeg);
+    background-size: cover ;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero h1{
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    text-align: center;
+}
+.hero p{
+    color: white;
+    font-size: 1.5rem;
+}
+.itens{
+    display: flex;
+    gap: 15px; 
+}
+.botao{
+    background-color: #BE580F;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 70px;
+    cursor: pointer;
+}
+
+
+.logo{
+    width: 14vw;
+    height: 15vh;
+}
+.destaque{
+    color: #B95A12;
+}
+.pesquisa{
+    padding: 4vh 1vw;
+    border: none;
+    outline: #BE580F;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 600px;
+}
+.input_container{
+    padding: 0.5vw;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.458);
+}
+.livros{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #F8F7F6;
+}
+
+.texto_topo{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 50px 40px 50px;
+}
+.view{
+    color: orange;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .card{
+        background-color: white;
+        width: 320px;
+        height: 500px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px 10px 0px;
+
+
+    }
+    .img_livro{
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .img_livro img{
+        width: 290px;
+        border-radius: 10px;
+    }
+    .titulo_livro{
+        font-size: 2rem;
+        padding: 1.3vh 1.2vw 0px;
+    }
+    .autor{
+    display: flex;
+    margin: 0px 20px 0px 20px;
+    }
+    .botao_livro{
+      width: 90%;
+      justify-content: center;
+      margin: 20px 0px 10px 16px;
+      border-radius: 5px;
+      padding: 8px 6px 9.5px 6px;
+      font-size: 1.1rem;
+      color: #AF0300;
+      background-color: #e4863f2d;
+      border: none;
+      cursor: pointer;
+    }
+
+.eventos{
+background-color: #F5EEEA ;
+padding: 85px 0px 100px 0px;
+}
+
+
+.stay{
+color: #AF0300;
+font-size: small;
+margin: 0px 0px 0px 60px;
+}
+
+.see_full{
+display: flex;
+justify-content: space-between;
+padding: 10px 60px 10px 60px;
+font-size: 1.6rem;
+
+}
+.Callendar{
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.days{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 0% 0% 0%;
+}
+
+.dia{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width: 360px;
+    height: 180px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.dia_mes{
+    color: #AF0300;
+    background-color: #b95a122d;
+    width:40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:6px;
+    border-radius:10px;
+
+}
+
+.afternoon{
+    font-size: 1.5rem;
+    padding: 12px 12px 12px 0px;
+}
+.disc{
+    color: rgba(0, 0, 0, 0.452);
+    font-size: 16px;
+}
+.register{
+    color: #B95A12;
+    font-size: 1.2rem;
+    padding: 12px 12px 12px 0px;
+}
+
+
+
+.ajuda{
+    text-align:center;
+    padding:60px;
+    background:#f4f1ee;
+}
+
+.mensagem{
+    font-size:32px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.mensagem_pequena_topo{
+    color:#6b7280;
+    max-width:600px;
+    margin:auto;
+    margin-bottom:50px;
+}
+
+.fichas{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+}
+
+.help{
+    width:220px;
+}
+
+.icone{
+    width:60px;
+    height:60px;
+    background:#c45a11;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:24px;
+    margin:auto;
+    margin-bottom:15px;
+}
+
+.foto{
+    width: 40px;
+}
+
+.msg_grande{
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.mensagem_pequena{
+    font-size: 0.7rem;
+    color:#6b7280;
+}
+
+
+.footer {
+    background-color: #1a110a; 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    font-family: sans-serif;
+}
+
+.m1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 25vw;
+    padding: 1vh 2vw;
+}
+.m1_topo{
+    height: 25vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.m1_meio{
+    height: 75vh;
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.modernizing {
+    color: #a8a29e; 
+    font-size: 0.90rem;
+    line-height: 1.4;
+}
+
+
+.horarios-container {
+    display: flex;
+    gap: 30px; 
+}
+
+.texto-branco {
+    font-size: 0.85rem;
+    color: white;
+    margin-bottom: 8px; 
+}
+.item-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coisinha{
+    color: #d97706; 
+
+}
+.icon-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #1E293B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.endereco{
+    color:#6b7280;
+    margin-bottom:50px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 2vh;
+}
+.sub_footer{
+    background-color: #1a110a; 
+
+
+}
+.linha_footer{
+  border: 0;
+}
+   footer {
+    border-top: 1px solid #1a3a5a; 
+    padding-top: 20px; 
+    text-align: center;
+    background-color: #1A110A; 
+    color: #a0a0a0;
+    padding: 5vh;
+}
+.alto_dia{
+    display: flex;
+    justify-content: space-between;
+}
+.icone-agenda{
+    color: #F2DECF;
+    font-size: 1.5vw;
+}
